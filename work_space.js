@@ -245,3 +245,57 @@
 //}
 
 //console.log(getTotal(1, 2, 10));
+
+// Массивы
+
+//const roles = ['admin', 'editor', 'user'];
+
+//console.log(roles);
+//console.log(roles[-1])
+
+//console.log(roles.length);
+//console.log(roles[roles.length - 1]);
+//console.log(roles[roles.length - 2]);
+
+//roles[1] = 'moderator';
+//console.log(roles);
+
+//console.log(roles.at(0));
+//console.log(roles.at(-1));
+
+//const newArray = [2040 - 2005, 'JavaScript', 2 - 'Yes', true, null];
+//console.log(newArray);
+
+//console.log(newArray[2]);
+
+//const userName = new Array('Vasiliy', 'Pupkin', 'Cheboksary');
+//console.log(userName);
+
+// Управление элементами массива
+
+//const finalUsers = ['Kate', 'John', 'Vasiliy'];
+//console.log(finalUsers);
+
+//finalUsers[1] = 'Pete';
+//console.log(finalUsers);
+
+//finalUsers[3] = 'Mary';
+//console.log(finalUsers);
+
+//finalUsers[5] = 'Anna';
+//console.log(finalUsers);
+
+//const lastFinal = finalUsers.push('Mary');
+//console.log(finalUsers);
+//console.log('Новый размер массива ' + lastFinal);
+
+//finalUsers.unshift('Pete');
+//console.log(finalUsers);
+
+//const el = finalUsers.pop('Mary');
+//console.log(el);
+//console.log(finalUsers);
+
+//const el2 = finalUsers.shift('Pete');
+//console.log(el2);
+//console.log(finalUsers);[]
