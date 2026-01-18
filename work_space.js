@@ -299,3 +299,41 @@
 //const el2 = finalUsers.shift('Pete');
 //console.log(el2);
 //console.log(finalUsers);[]
+
+// Поиск элементов в массиве
+
+//const array = ['admin', 'editor', 'user', 'moderator', 'admin'];
+
+//const element = array.indexOf('moderator');
+//console.log('Индекс элемента moderator: ' + element);
+//const element2 = array.indexOf('shadow');
+//console.log('Индекс элемента shadow: ' + element2);
+
+//console.log(array.includes('user'));
+//console.log(array.includes('magazine'));
+
+// Slice, splice, concat, reverse
+
+//const array = ['admin', 'editor', 'user', 'moderator', 'admin'];
+
+// Slice - не модифицирует исходный массив, отрезает и возвращает кусок
+
+//console.log(array.slice(2));
+//console.log(array.slice(3, 5));
+//console.log(array.slice(-1));
+//console.log(array.slice(1, -2));
+
+// Splice - модифицирует исходный массив, удаляет или добавляет элементы
+
+//console.log(array.splice(2));
+//console.log(array.splice(1, 3));
+
+// reverse - изменяет порядок элементов в массиве на обратный
+
+//console.log(array.reverse());
+
+// Concat - объединяет несколько массивов в один новый массив
+
+//const array2 = ['guest', 'manager'];
+//const newArray = array.concat(array2);
+//console.log(newArray);
