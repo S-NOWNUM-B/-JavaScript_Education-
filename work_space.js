@@ -298,7 +298,7 @@
 
 //const el2 = finalUsers.shift('Pete');
 //console.log(el2);
-//console.log(finalUsers);[]
+//console.log(finalUsers);
 
 // Поиск элементов в массиве
 
@@ -337,3 +337,34 @@
 //const array2 = ['guest', 'manager'];
 //const newArray = array.concat(array2);
 //console.log(newArray);
+
+// Из строки в массив и обратно
+
+//const array = ['admin', 'editor', 'user', 'moderator', 'admin'];
+//const url = 'editor/user/moderator';
+
+//console.log(url.split('/'));
+//console.log(array.join(' | '));
+
+// Деструктуризация массивов
+
+//const userData = ['Vasiliy', 'Pupkin', 25, 'Cheboksary'];
+
+//const [firstName, lastName, age, city] = userData;
+
+//console.log(firstName, lastName, age, city);
+//console.log(`Имя: ${firstName}`);
+//console.log(`Фамилия: ${lastName}`);
+//console.log(`Возраст: ${age}`);
+//console.log(`Город: ${city}`);
+
+// Rest оператор
+
+//const numbser = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+
+//const [one, two, ...others] = numbser;
+
+//console.log(one);
+//console.log(two);
+//console.log(others);
+//console.log(one, two, others);

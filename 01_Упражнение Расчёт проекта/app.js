@@ -4,10 +4,10 @@
 //Boolean переменную успеете ли вы взяться за работу
 //Сколько вы за неё попросите?
 
-//const payRateUSD = 80;
-//const projectHours = 40;
+const payRateUSD = 80;
+const projectHours = 40;
 
-//const availableHours = (11 - 2) * 5;
+const availableHours = (11 - 2) * 5;
 
-//console.log('Смогу ли я работать? ' + (availableHours > projectHours));
-//console.log('Стоимость работы: ' + projectHours * payRateUSD + ' USD');
+console.log('Смогу ли я работать? ' + (availableHours > projectHours));
+console.log('Стоимость работы: ' + projectHours * payRateUSD + ' USD');
