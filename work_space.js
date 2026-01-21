@@ -360,11 +360,70 @@
 
 // Rest оператор
 
-//const numbser = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+//const number = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
-//const [one, two, ...others] = numbser;
+//const [one, two, ...others] = number;
 
 //console.log(one);
 //console.log(two);
 //console.log(others);
 //console.log(one, two, others);
+
+// Цикл for
+
+//for(let i = 1; i <= 10 ; i++) {
+//	console.log(`Итерация цикла номер ${i}`);
+//}
+
+// Break и Continue
+
+//const tasks = ['Задание 1', 'Задание 2', 'Задание 3', 'Задание 4', 'Задание 5'];
+
+//for(let i = 0; i < tasks.length; i++) {
+//	if (tasks[i] === 'Задание 3') {
+//		console.log('Цикл прерван на Задании 3');
+//		continue;
+//	}
+//	console.log(`Выполняется: ${tasks[i]}`);
+//}
+//console.log('-----')
+//for(let i = 0; i < tasks.length; i++) {
+//	if (tasks[i] === 'Задание 3') {
+//		console.log('Цикл прерван на Задании 3');
+//		break;
+//	}
+//	console.log(`Выполняется: ${tasks[i]}`);
+//}
+
+// Цикл в цикле
+
+//for (let i = 1; i < 5; i++) {
+//	console.log(`Цикл 1 - ${i}`);
+//	for (let j = 1; j < 5; j++) {
+//		console.log(`   Цикл 2 - ${j}`);
+//	}
+//}
+
+//const tasks = [[1, 'Задание 1'], [2, 'Задание 2'], [3, 'Задание 3']];
+
+//for (let i = 0; i < tasks.length; i++) {
+//	for (let j = 0; j < tasks[i].length; j++) {
+//		console.log(tasks[i][j]);
+//	}
+//}
+
+// Цикл while
+
+//let i = 1;
+//while (i <= 5) {
+//	console.log(`Итерация цикла номер ${i}`);
+//	i++;
+//}
+
+//const arr = [1, 4, 8, 7];
+//let i = 0;
+
+//while (arr[i] <= 5 && i < arr.length) {
+//	console.log(arr[i]);
+//	i++;
+//}
